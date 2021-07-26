@@ -3,6 +3,7 @@ import Sushi from '../components/Sushi'
 import MoreButton from '../components/MoreButton'
 
 const SushiContainer = (props) => {
+  console.log("SCprops", props)
 	return (
 	  <Fragment>
 	    <div className="belt">
